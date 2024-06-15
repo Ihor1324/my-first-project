@@ -1,0 +1,289 @@
+/* Підключення шрифта (не видаляти) */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro:wght@400;700&display=swap');
+body{
+    margin: 0px; /* забираємо стандартні відступи в тега body */
+}
+
+/* Ваші стилі */
+
+header{
+    display: flex;
+    height: 80px;
+    padding: 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.menu{
+    display: flex;
+    height: 80px;
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left:100px ;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-grow: 1;
+}
+
+
+
+.menu-elements:hover{
+    text-decoration: underline;
+}
+
+.menu-elements{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 120% */
+    text-transform: uppercase;
+    text-decoration: none;
+
+    width: 80px;
+    height: 20px;
+    padding: 5px 40px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    background: #DCE5E2;
+   
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    text-transform: capitalize;
+}
+
+main{
+    padding: 5%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    margin-bottom: 120px;
+    border-radius: 32px;
+    background: #DCE5E2 top center / 100% repeat url(https://i.pinimg.com/originals/df/07/1e/df071e1705c2b26a37c8e8c5fd632f04.jpg);
+}
+
+.block{
+    display: flex;
+    padding: 90px 54px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+.card-img3{
+    width: 1000px;
+    height: 500px;
+
+}
+
+.main-text{
+    margin: 0;
+    max-width: 500px;
+    color: #000000e8;
+    font-family: Readex Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69.6px; /* 120% */
+    padding-top: 35px;
+    padding-right: 130px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+}
+
+.text{
+    color: #000000e8;
+    text-align: center;
+    font-family: Readex Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px; /* 125% */
+    margin-bottom: 57px;
+}
+
+.text-card{
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 125% */
+    width: 200px;
+}
+
+.price-card{
+    color: #36e014;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+}
+
+.card-img{
+    width: 220px;
+    height: 330px;
+}
+.card-img1{
+    width: 220px;
+    height: 220px;
+}
+.card-img2{
+    width: 350px;
+    height: 220px;
+}
+
+.container-cards{
+   
+}
+
+.card:hover{
+    background: rgb(174, 180, 174);
+    width: 220px;
+}
+
+.card1:hover{
+    background: rgb(174, 180, 174);
+    width: 350px;
+}
+
+.last-block{
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 130px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    border-radius: 16px;
+}
+
+.text-last-block{
+    color: #000;
+    text-align: center;
+    font-family: Readex Pro;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px; /* 125% */
+    max-width: 393px;
+}
+
+.text1{
+    display: flex;
+    width: 270px;
+    padding: 16px 23px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 54px 0px 0px 54px;
+    border: 1px solid #000;
+    background: #DCE5E2;
+}
+
+.subm{
+    display: flex;
+    height: 50px;
+    padding: 16px 33px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 0px 200px 200px 0px;
+    background: #000;
+    color: white;
+}
+
+.content-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 162px;
+    height: 160px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.li{
+    list-style:none;
+}
+
+.footer{
+    display: flex;
+    min-height: 300px;
+    padding: 40px 60px;
+    align-items: flex-start;
+    align-content: space-between;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    color:#bebabae8
+}
+
+.footer-menu{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+}
+
+.vert-menu{
+    display: flex;
+    padding: 0px 38px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.footer-elements-first{
+    align-self: stretch;
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 125% */
+    text-decoration: none;
+}
+
+.footer-elements{
+    width: 74.375px;
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 127.059% */
+    text-decoration: none;
+}
+
+.footer-elements:hover{
+    text-decoration: underline;
+}
